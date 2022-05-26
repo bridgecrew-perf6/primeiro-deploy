@@ -1,0 +1,17 @@
+//comando executado quando aplicação chegar start é por onde  vai começar a aplicação
+    "start": "node server.js", 
+//devStart prompt comando executado quando tá rodando
+    "devStart": "nodemon server.js",
+
+
+npm express --save
+traz pasta de módulos
+cria outro arquivo mostrando dependência  
+
+executar manda npm run devStart
+
+ctrl + c finaliza
+
+npm i dotenv --save
+
+usa porta disponível p serviço, hiraku que seleciona as portas la
