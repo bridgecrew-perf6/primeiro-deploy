@@ -13,6 +13,7 @@ const indexRouter = require('./routes/index')
 
 const produtosRouter = require('./routes/produtos')
 
+app.use(express.static('public'))
 app.use('/', indexRouter)
 app.use('/produtos', produtosRouter)
 
