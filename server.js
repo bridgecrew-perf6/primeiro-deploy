@@ -10,5 +10,9 @@ app.get('/', (req,res) => {
     res.end('Servidor ativo')
 })
 
+app.get('/produtos', (req,res) => {
+    res.end('PRODUTOS')
+})
+
 //app traz função listen do express
 app.listen(process.env.PORT)
